@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "HtmlJsEditor/1.0.0": {
+        "dependencies": {
+          "AvalonEdit": "6.1.0"
+        },
+        "runtime": {
+          "HtmlJsEditor.dll": {}
+        }
+      },
+      "AvalonEdit/6.1.0": {
+        "runtime": {
+          "lib/netcoreapp3.0/ICSharpCode.AvalonEdit.dll": {
+            "assemblyVersion": "6.1.0.12",
+            "fileVersion": "6.1.0.12"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HtmlJsEditor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AvalonEdit/6.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qRVwnKncJByctULTAfLqvFBmfuBu46Z3o96HoZqw0WAQ32lqxz/Lyix53amUug4ojVWG7ENqLo3imPQ5zef5Qw==",
+      "path": "avalonedit/6.1.0",
+      "hashPath": "avalonedit.6.1.0.nupkg.sha512"
+    }
+  }
+}
